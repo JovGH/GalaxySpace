@@ -352,3 +352,15 @@ public class GalaxySpace
         }
     }
 }
+
+if(Loader.isModLoaded("asmodeuscore")){
+  BodiesData data = new BodiesData(TypeBody.STAR).setStarClass(StarClass.DWARF).setStarColor(StarColor.RED);
+  BodiesRegistry.registerBodyData(HERE LAZENDUS STAR, data);
+}
+
+
+
+
+
+
+
